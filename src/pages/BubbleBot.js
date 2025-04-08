@@ -32,6 +32,14 @@ const BubbleBot = () => {
             
           </SubStep>
           
+          <SubStep title="Trading Potential">
+            <p>Trading consistently, even with small daily gains, can lead to significant annual results:</p>
+            <div className="trading-image">
+              <img src="/images/motivation.png" alt="Trading profit potential showing daily amounts converting to yearly earnings" width="100%" />
+            </div>
+            <p className="image-caption">A little progress each day adds up to big results over the 252 trading days in a year.</p>
+          </SubStep>
+          
           <SubStep title="Video Tutorial">
             <p>Watch this comprehensive guide to get started with Bubble Bot:</p>
             <div className="video-container">
