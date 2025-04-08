@@ -43,7 +43,13 @@ const BubbleBot = () => {
           <SubStep title="Video Tutorial">
             <p>Watch this comprehensive guide to get started with Bubble Bot:</p>
             <div className="video-container">
-            <iframe src="https://drive.google.com/file/d/1hO9a_Ynlb6qewEPXzlZi2e8afyTEP7tl/preview" width="640" height="480" allow="autoplay"></iframe>
+              <iframe 
+                src="https://drive.google.com/file/d/1hO9a_Ynlb6qewEPXzlZi2e8afyTEP7tl/preview" 
+                width="640" 
+                height="480" 
+                allow="autoplay"
+                title="Bubble Bot Tutorial Video"
+              ></iframe>
             </div>
           </SubStep>
           

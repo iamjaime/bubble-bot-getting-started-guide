@@ -36,7 +36,13 @@ const GettingStarted = () => {
           <SubStep title="Video Tutorial">
             <p>Watch this video guide for downloading NinjaTrader:</p>
             <div className="video-container">
-              <iframe src="https://drive.google.com/file/d/13_kzuROUGHkreg99S6qAmWvpHkvF7YiW/preview" width="640" height="480" allow="autoplay"></iframe>
+              <iframe 
+                src="https://drive.google.com/file/d/13_kzuROUGHkreg99S6qAmWvpHkvF7YiW/preview" 
+                width="640" 
+                height="480" 
+                allow="autoplay"
+                title="Downloading NinjaTrader Tutorial"
+              ></iframe>
             </div>
           </SubStep>
         </Step>
@@ -58,7 +64,13 @@ const GettingStarted = () => {
           <SubStep title="Video Tutorial">
             <p>Watch this video tutorial for detailed installation instructions:</p>
             <div className="video-container">
-              <iframe src="https://drive.google.com/file/d/1Vu6TwqYyq506wWhSDnyt7qGZQiwu4Dja/preview" width="640" height="480" allow="autoplay"></iframe>
+              <iframe 
+                src="https://drive.google.com/file/d/1Vu6TwqYyq506wWhSDnyt7qGZQiwu4Dja/preview" 
+                width="640" 
+                height="480" 
+                allow="autoplay"
+                title="Installing NinjaTrader Tutorial"
+              ></iframe>
             </div>
           </SubStep>
         </Step>
@@ -80,7 +92,13 @@ const GettingStarted = () => {
           <SubStep title="Video Tutorial">
             <p>Watch this video for a visual guide on finding your Machine ID:</p>
             <div className="video-container">
-              <iframe src="https://drive.google.com/file/d/1RO8VWnYVDkxmVgkCDBGOsJqC6SWmp7cZ/preview" width="640" height="480" allow="autoplay"></iframe>
+              <iframe 
+                src="https://drive.google.com/file/d/1RO8VWnYVDkxmVgkCDBGOsJqC6SWmp7cZ/preview" 
+                width="640" 
+                height="480" 
+                allow="autoplay"
+                title="Finding Your Machine ID Tutorial"
+              ></iframe>
             </div>
           </SubStep>
         </Step>
@@ -102,7 +120,13 @@ const GettingStarted = () => {
           <SubStep title="Video Overview">
             <p>Watch this comprehensive overview of prop firm trading:</p>
             <div className="video-container">
-              <iframe src="https://drive.google.com/file/d/19e7dNfIjBSy76sqTMdMxyL5SDDUKzv9f/preview" width="640" height="480" allow="autoplay"></iframe>
+              <iframe 
+                src="https://drive.google.com/file/d/19e7dNfIjBSy76sqTMdMxyL5SDDUKzv9f/preview" 
+                width="640" 
+                height="480" 
+                allow="autoplay"
+                title="Prop Firm Trading Overview"
+              ></iframe>
             </div>
           </SubStep>
         </Step>
