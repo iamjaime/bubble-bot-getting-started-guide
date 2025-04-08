@@ -49,7 +49,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
                   className="nav-link"
                   onClick={() => isOpen && toggleSidebar()}
                 >
-                  Step 1
+                  1. Downloading NinjaTrader
                 </NavLink>
               </li>
               <li className="nav-item">
@@ -58,7 +58,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
                   className="nav-link"
                   onClick={() => isOpen && toggleSidebar()}
                 >
-                  Step 2
+                  2. Installing NinjaTrader
                 </NavLink>
               </li>
               <li className="nav-item">
@@ -67,7 +67,25 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
                   className="nav-link"
                   onClick={() => isOpen && toggleSidebar()}
                 >
-                  Step 3
+                  3. Find Your Machine ID
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink 
+                  to="/getting-started#step4" 
+                  className="nav-link"
+                  onClick={() => isOpen && toggleSidebar()}
+                >
+                  4. Prop Firm Overview
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink 
+                  to="/getting-started#step5" 
+                  className="nav-link"
+                  onClick={() => isOpen && toggleSidebar()}
+                >
+                  5. Trading Overview
                 </NavLink>
               </li>
             </ul>

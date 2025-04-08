@@ -14,7 +14,14 @@ const Home = () => {
             <h3 className="step-title">Getting Started</h3>
           </div>
           <div className="step-content">
-            <p>Learn the basics and set up your environment.</p>
+            <p>Learn how to download and install NinjaTrader, find your Machine ID, and understand prop firm trading basics.</p>
+            <ul>
+              <li>Downloading NinjaTrader</li>
+              <li>Installing NinjaTrader</li>
+              <li>How to Find Your Machine ID</li>
+              <li>Prop Firm Overview</li>
+              <li>Trading Overview</li>
+            </ul>
             <Link to="/getting-started" className="button">View Guide</Link>
           </div>
         </div>
