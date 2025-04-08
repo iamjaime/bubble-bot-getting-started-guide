@@ -20,7 +20,6 @@ const Home = () => {
               <li>Installing NinjaTrader</li>
               <li>How to Find Your Machine ID</li>
               <li>Prop Firm Overview</li>
-              <li>Trading Overview</li>
             </ul>
             <Link to="/getting-started" className="button">View Guide</Link>
           </div>

@@ -79,15 +79,6 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
                   4. Prop Firm Overview
                 </NavLink>
               </li>
-              <li className="nav-item">
-                <NavLink 
-                  to="/getting-started#step5" 
-                  className="nav-link"
-                  onClick={() => isOpen && toggleSidebar()}
-                >
-                  5. Trading Overview
-                </NavLink>
-              </li>
             </ul>
           </li>
           <li className="nav-item">
@@ -110,25 +101,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
                   className="nav-link"
                   onClick={() => isOpen && toggleSidebar()}
                 >
-                  Step 1
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink 
-                  to="/bubble-bot#step2" 
-                  className="nav-link"
-                  onClick={() => isOpen && toggleSidebar()}
-                >
-                  Step 2
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink 
-                  to="/bubble-bot#step3" 
-                  className="nav-link"
-                  onClick={() => isOpen && toggleSidebar()}
-                >
-                  Step 3
+                  Getting Started with Bubble Bot
                 </NavLink>
               </li>
             </ul>
